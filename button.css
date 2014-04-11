@@ -1,0 +1,42 @@
+/**
+ *	@Author zcoding
+ *	@Date 2014/4/11
+ */
+a.btn, a.btn:link, a.btn:visited, a.btn:hover, a.btn:active {
+	color: #000000;
+	cursor: default;
+}
+.btn {
+	display: inline-block;
+	margin: 5px 10px;
+	padding: 5px 10px;
+	border: 1px solid #f0f0f0;
+	background: #f8f8f8;
+	outline: none;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0 1px 2px 0 #0f0f0f;
+	-moz-box-shadow: 0 1px 2px 0 #0f0f0f;
+	box-shadow: 0 1px 2px 0 #0f0f0f;
+	font-size: 14px;
+}
+.btn:hover {
+	background: -moz-linear-gradient(top, #f8f8f8, #dddddd);
+	background: -webkit-linear-gradient(top, #f8f8f8, #dddddd);
+}
+.btn:active {
+	background:  #f8f8f8;
+}
+/* different colors*/
+.orange {
+	border: 1px solid #f8a800;
+	background: #ffaa00;
+}
+.orange:hover {
+	background: -moz-linear-gradient(top, #ffaa00, #ff8800);
+	background: -webkit-linear-gradient(top, #ffaa00, #ff8800);
+}
+.orange:active {
+	background: #ffaa00;
+}
